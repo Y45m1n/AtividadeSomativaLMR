@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Tatu</title>
+    <link rel="stylesheet" href="styleCadastro.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Novo Usuário</h2>
+        <form>
+            <label for="pnome" title="nome">Nome:</label>
+            <input type="text" name="nome" id="pnome" placeholder="Informe o nome:" SIZE="80"><br>
+            <label for="pcpf" title="scpf">CPF:</label>
+            <input type="text" name="scpf" id="pcpf" placeholder="Informe o cpf:">
+            <label for="pendereco" title="sendereco">Endereço:</label>
+            <input type="text" name="sendereco" id="pendereco" placeholder="Informe seu Endereço:">
+            Nivel: <SELECT NAME="nivel">
+                <OPTION VALUE="---"> ---
+                <OPTION VALUE="Casa"> Casa
+                <OPTION VALUE="Apartamento"> Apartamento
+                <OPTION VALUE="Sítio"> Sítio
+            </SELECT> <br>
+            <label for="pmail" title="Mail">E-mail:</label>
+            <input type="text" name="e-mail" id="pmail" placeholder="Seu@email">
+            <label for="psenha" title="Senha">Senha:</label>
+            <input type="password" name="senha" id="psenha" placeholder="Digite sua senha">
+            Status: <SELECT NAME="status">
+                <OPTION VALUE="---"> ---
+                <OPTION VALUE="Ativo"> Ativo
+                <OPTION VALUE="Inativo"> Inativo
+            </SELECT> <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+        </form><br>
+    </div>
+</body>
+
+</html>
